@@ -29,6 +29,7 @@ gem 'sqlite3', '1.3.3'
 group :development, :test do
 	gem 'rspec-rails', '2.6.1'
 	gem 'webrat', '0.7.1'
+	gem 'spork', '0.9.0.rc8'
 end
 
 #rspec-rails in dev mode so we have access to the rspec-soecific generators
